@@ -28,7 +28,8 @@ list_of_files = [
     # "pyproject.toml",
     # "tox.ini",
     "experiment/experiments.ipynb",
-    "README.md"
+    "README.md",
+    ".gitignore"
 
 ]
 
