@@ -24,7 +24,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("data ingestion started")
         try:
-            data=pd.read_csv("https://raw.githubusercontent.com/AyushSonuu/FSDSRegression/main/notebooks/data/gemstone.csv")
+            data=pd.read_csv("https://raw.githubusercontent.com/MVKonduru/project/master/raw.csv")
             logging.info(" reading a df")
 
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
@@ -33,7 +33,7 @@ class DataIngestion:
             
             logging.info("here i have performed train test split")
             
-            train_data,test_data=train_test_split(data,test_size=0.25)
+            train_data,test_data=train_test_split(data,test_size=0.3)
             logging.info("train test split completed")
             
             train_data.to_csv(self.ingestion_config.train_data_path,index=False)

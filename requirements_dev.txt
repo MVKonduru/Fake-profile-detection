@@ -4,5 +4,7 @@ matplotlib
 seaborn
 keras
 scikit-learn
-
+xgboost
+flask
+mlflow
 -e .
