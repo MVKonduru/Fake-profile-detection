@@ -16,7 +16,7 @@ list_of_files = [
     "src/pipeline/prediction_pipeline.py",
     "src/utils/__init__.py",
     "src/utils/utils.py",
-    "src/logger/logging.py",
+    "src/logger/logger.py",
     "src/exception/exception.py",
     "tests/unit/__init__.py",
     "tests/integration/__init__.py",
@@ -24,10 +24,11 @@ list_of_files = [
     "requirements.txt",
     "requirements_dev.txt",
     "setup.py",
-    "setup.cfg",
-    "pyproject.toml",
-    "tox.ini",
-    "experiment/experiments.ipynb"
+    # "setup.cfg",
+    # "pyproject.toml",
+    # "tox.ini",
+    "experiment/experiments.ipynb",
+    "README.md"
 
 ]
 
